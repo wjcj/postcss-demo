@@ -1,0 +1,8 @@
+/* bug 4 */
+.foo { flex: 1; }
+.bar { flex: 1 1; }
+.foz { flex: 1 1 0; }
+.baz { flex: 1 1 0px; }
+
+/* bug 8.1.a */
+.foo { flex: 0 0 calc(100%/3); }
